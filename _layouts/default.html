@@ -28,16 +28,19 @@ THE SOFTWARE.
 {% include head.html %}
 
 <body class="{{ site.css }} lighten-5">
- 
-  <div class="preloader {{ site.css }} container-fluid row">
-    <div class="white-text text-darken-4 xpretext"><img src="img/logo.svg" style="height:3rem;margin-top:.6rem">
+
+    <div class="preloader {{ site.css }} container-fluid row">
+        <div class="white-text text-darken-4 xpretext">
+            <object data="img/logo.svg" type="image/svg+xml" style="height:3rem;margin-top:.6rem">
+                <img src="img/logo.svg" style="height:3rem;margin-top:.6rem" />
+            </object>
         </div>
-     <div class="progress {{ site.css }} lighten-2 xpreloading">
-      <div class="indeterminate {{ site.css }} darken-3"></div>
-  </div>
-  
-</div>
-   
+        <div class="progress {{ site.css }} lighten-2 xpreloading">
+            <div class="indeterminate {{ site.css }} darken-3"></div>
+        </div>
+
+    </div>
+
     {% include header.html %}
     <a class="darken-2 scrollToTop btn-floating btn-large waves-effect waves-light {{ site.css }}"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
     <div id="page-wrap">

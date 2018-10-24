@@ -1,4 +1,7 @@
 <svg width="92.713mm" height="20.083mm" version="1.1" viewBox="0 0 92.713 20.083" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style>@import url('https://fonts.googleapis.com/css?family=Irish+Grover');</style>
+</defs>
  <g transform="translate(-27.942 -101.4)">
   <circle cx="48.924" cy="111.55" r="7.5769" fill="none" stroke="#fff" stroke-width=".79375"/>
   <path d="m43.782 117.1-1.7725 3.6936 15.069 0.0244-2.1562-4.6345" fill="none" stroke="#fff" stroke-width="1.3229"/>
